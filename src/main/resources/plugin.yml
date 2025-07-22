@@ -1,5 +1,5 @@
-name: stasis
-version: '1.0-SNAPSHOT'
-main: xyz.shaggysa.stasis.Stasis
+name: StillSky
+version: '1.0'
+main: xyz.shaggysa.stillSky.StillSky
 api-version: '1.21'
 description: A paper plugin to pause the daylight cycle when no players are online.

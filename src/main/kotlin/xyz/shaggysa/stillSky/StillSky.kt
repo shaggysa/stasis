@@ -1,4 +1,4 @@
-package xyz.shaggysa.stasis
+package xyz.shaggysa.stillSky
 
 import org.bukkit.Bukkit
 import org.bukkit.GameRule
