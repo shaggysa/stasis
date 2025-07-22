@@ -41,7 +41,7 @@ class PlayerListener : Listener {
 class StillSky : JavaPlugin() {
     companion object {
         val instance: StillSky by lazy {
-            Bukkit.getPluginManager().getPlugin("Stasis") as StillSky
+            Bukkit.getPluginManager().getPlugin("StillSky") as StillSky
         }
     }
 
@@ -49,7 +49,6 @@ class StillSky : JavaPlugin() {
         if (serverEmpty()) {
             freezeDaylight()
         }
-
         server.pluginManager.registerEvents(PlayerListener(), this)
     }
 
